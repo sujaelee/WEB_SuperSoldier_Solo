@@ -8,7 +8,7 @@
 <script>
 import Subjects from '../components/Subjects.vue';
 export default {
-  name: 'todo-wrapper',
+  name: 'subjects-wrapper',
   components: {
     Subjects,
   },
@@ -16,18 +16,18 @@ export default {
   data() {
     return {
       subjects: [{
-        title: '화생방',
-        project: '화생방에 대해 알아 봅니다.',
-      }, {
         title: '구급법',
-        project: '대충',
+        subtitle: '구급법에 대해 알아 봅니다.',
       }, {
-        title: '정신전력',
-        project: '대충',
+        title: '군사 영어',
+        subtitle: '군대에서 쓰이는 영어 단어들에 대해 알아 봅니다.',
       }, {
         title: '군부대',
-        project: '대충',
-      }],
+        subtitle: '전국의 군부대의 편제와 이름에 대해 알아 봅니다.',
+      }
+				
+				
+				],
     };
   },
 };

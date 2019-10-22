@@ -1,42 +1,40 @@
 <template>
-<div>
-	<el-container style="height: 800px; border: 1px solid #eee">
-  <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
-    <el-menu>
-      <el-submenu index="1">
-        <template slot="title">1번 문제</template>
-      </el-submenu>
-      <el-submenu index="2">
-        <template slot="title">2번 문제</template>
-      </el-submenu>
-    </el-menu>
-  </el-aside>
-  
-  <el-container>
-    
-    <el-main>
-		<el-card class="box-card" @click.native="addTodo()">
-            <div @click.native="addTodo()">
+    <div>
+        <el-container style="height: 800px; border: 1px solid #eee">
+            <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
+                <el-menu>
+                    <el-menu-item-group>
+                        <el-menu-item index="1-1">Option 1</el-menu-item>
+                        <el-menu-item index="1-2">Option 2</el-menu-item>
+                    </el-menu-item-group>
+                </el-menu>
+            </el-aside>
 
-                <span>{{ subjects[current].front }}</span>
-                <div v-if="type === 'B'">
+            <el-container>
 
-                    {{ subjects[current].back }}
-                    <el-row>
-                        <el-button type="danger">다시 보기</el-button>
-                        <el-button type="primary">보통</el-button>
-                        <el-button type="success">쉬움</el-button>
+                <el-main>
+                    <el-card class="box-card" @click.native="addTodo()">
+                        <div @click.native="addTodo()">
 
-                    </el-row>
-                </div>
+                            <span>{{ subjects[current].front }}</span>
+                            <div v-if="type === 'B'">
 
-            </div>
-        </el-card>
-    </el-main>
-  </el-container>
-</el-container>
+                                {{ subjects[current].back }}
+                                <el-row>
+                                    <el-button type="danger">다시 보기</el-button>
+                                    <el-button type="primary">보통</el-button>
+                                    <el-button type="success">쉬움</el-button>
 
-	</div>
+                                </el-row>
+                            </div>
+
+                        </div>
+                    </el-card>
+                </el-main>
+            </el-container>
+        </el-container>
+
+    </div>
 </template>
 
 <script>

@@ -24,8 +24,17 @@
     * {
         font-family: 'Noto Sans KR', sans-serif;
     }
+    html, body {
+        height: 100%;
+        margin: 0px;
+    }
 
     a {
         text-decoration: none;
     }
+	
+	h1 {
+		margin-top: 0px;
+		font-size: 3em;
+	}
 </style>

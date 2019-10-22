@@ -1,14 +1,14 @@
 <template>
     <div>
         <el-row>
-            <el-col :span="6" v-for="(subject, index) in subjects" v-bind:key="index" :offset="1">
+            <el-col :span="6" v-for="(card, index) in cards" v-bind:key="index" :offset="1">
 <router-link :to="`/cards/${index+1}`">
 
-                <el-card :body-style="{ padding: '0px' }">
-                    <div style="padding: 14px;">
-                        <span>{{ subject.title }}</span>
+                <el-card style="margin-bottom:10px;">
+                    <div>
+						<span style="font-size:1.5em; font-weight:bold;">{{ card.title }}</span>
                         <div class="bottom clearfix">
-						<span>{{ subject.number }}</span>
+						<span>{{ card.number }}</span>
                         </div>
                     </div>
                 </el-card>
@@ -51,6 +51,6 @@
 
 <script>
     export default {
-        props: ['subjects'],
+        props: ['cards'],
     }
 </script>

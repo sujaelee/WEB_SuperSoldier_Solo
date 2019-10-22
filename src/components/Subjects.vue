@@ -1,21 +1,42 @@
 <template>
     <div>
+        <h1 style="margin-left:80px;">
+            신청한 과목
+        </h1>
         <el-row>
             <el-col :span="6" v-for="(subject, index) in subjects" v-bind:key="index" :offset="1">
-<router-link :to="`/subjects/${index+1}`">
+                <router-link :to="`/subjects/${index+1}`">
 
-                <el-card :body-style="{ padding: '0px' }">
-                    <div style="padding: 14px;">
-                        <span>{{ subject.title }}</span>
-                        <div class="bottom clearfix">
-						<span>{{ subject.project }}</span>
+                    <el-card style="margin-bottom:10px;">
+                        <div>
+                            <span style="font-size:1.5em; font-weight:bold;">{{ subject.title }}</span>
+                            <div class="bottom clearfix">
+                                <span>{{ subject.subtitle }}</span>
+                            </div>
                         </div>
-                    </div>
-                </el-card>
-			</router-link>
-    </el-col>
-    </el-row>
-	</div>
+                    </el-card>
+                </router-link>
+            </el-col>
+        </el-row>
+        <h1 style="margin-left:80px;">
+            과목 목록
+        </h1>
+        <el-row>
+            <el-col :span="6" v-for="(subject, index) in subjects" v-bind:key="index" :offset="1">
+                <router-link :to="`/subjects/${index+1}`">
+
+                    <el-card style="margin-bottom:10px;">
+                        <div>
+                            <span style="font-size:1.5em; font-weight:bold;">{{ subject.title }}</span>
+                            <div class="bottom clearfix">
+                                <span>{{ subject.subtitle }}</span>
+                            </div>
+                        </div>
+                    </el-card>
+                </router-link>
+            </el-col>
+        </el-row>
+    </div>
 </template>
 <style>
     .time {
