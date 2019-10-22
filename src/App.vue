@@ -1,30 +1,31 @@
 <template>
-  <div id="app">
-    <Header />
-    <Main />
-  </div>
+    <div id="app">
+
+        <Header />
+        <el-main>
+            <router-view />
+        </el-main>
+    </div>
 </template>
 
 <script>
-  import Header from '@/components/Header.vue'
-  import Main from '@/components/Main.vue'
-
-  export default {
-    name: 'app',
-    components: {
-      Header,
-      Main
-    },
-  }
+    import Header from '@/components/Header.vue'
+    export default {
+        name: 'app',
+        components: {
+            Header,
+        },
+    }
 </script>
 
 <style>
-  button {
-    background: #009435;
-    border: 1px solid #009435;
-  }
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
-  .small-container {
-    max-width: 680px;
-  }
+    * {
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
 </style>

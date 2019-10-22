@@ -4,25 +4,18 @@
       <div style="float:left; line-height:50px; font-size:1.5em">
         SuperSoldier
   </div>
-   <el-tabs style="float:right;">
-    <el-tab-pane label="공부하기"></el-tab-pane>
-    <el-tab-pane label="카드학습"></el-tab-pane>
-    <el-tab-pane label="시험보기"></el-tab-pane>
-    <el-tab-pane label="이수재님"></el-tab-pane>
-  </el-tabs>
+      
+<el-menu class="el-menu-demo" mode="horizontal" :router="true">
+  <el-menu-item index="/">SuperSoldier</el-menu-item>
+  <el-menu-item index="/subjects">공부하기</el-menu-item>
+    <el-menu-item index="/cards">카드학습</el-menu-item>
+  <el-menu-item index="/tests">시험보기</el-menu-item>
+
+</el-menu>
 
     </el-header>
 </template>
 <style>
-  .el-header {
-    background-color: #B3C0D1;
-    color: #333;
-    line-height: 60px;
-  }
-  
-  .el-aside {
-    color: #333;
-  }
 </style>
 
 <script>
