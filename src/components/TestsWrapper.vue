@@ -16,19 +16,16 @@
         data() {
             return {
                 tests: [{
-                    title: '구급법',
-                    project: '구급법에 대해 알아 봅니다.',
-                    number: 30
-                }, {
-                    title: '화생방',
-                    project: 'Project B',
-                }, {
-                    title: '정신전력',
-                    project: 'Project C',
-                }, {
                     title: '군부대',
-                    project: 'Project D',
-                }],
+                    explanation: '전국 군부대의 이름을 맞춰봅시다.',
+					taken : false,
+					score : '',
+                }, {
+                    title: '군사영어',
+                    explanation: '군대에서 쓰이는 영어 용어들을 맞춰봅시다.',
+					taken : true,
+					score : 85
+                },],
             };
         },
     };

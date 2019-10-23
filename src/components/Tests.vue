@@ -4,35 +4,57 @@
             <h1 style="margin-left:80px;">
                 내가 본 시험
             </h1>
-            <el-col :span="6" v-for="(subject, index) in tests" v-bind:key="index" :offset="1">
-                <router-link :to="`/tests/${index+1}`">
+            <el-col :span="6" v-for="(test, index) in tests" v-bind:key="index" :offset="1">
+                <div v-if="test.taken">
 
-                    <el-card style="margin-bottom:10px;">
-                        <div>
-                            <span style="font-size:1.5em; font-weight:bold;">{{ subject.title }}</span>
-                            <div class="bottom clearfix">
-								75점
+                    <router-link :to="`/tests/${index+1}`">
+
+                        <el-card style="margin-bottom:10px;">
+                            <div>
+                                <span style="font-size:1.5em; font-weight:bold;">{{ test.title }}</span>
+                                <div class="bottom clearfix">
+                                    <h4>{{ test.explanation}}</h4>
+                                    <div>
+                                        <h5>
+
+                                            {{ test.score }}점
+
+                                        </h5>
+                                        <el-tag v-if="test.score >= 90">특급전사!</el-tag>
+                                        <el-tag v-else-if="test.score >= 80">전투프로!</el-tag>
+                                        <el-tag v-else-if="test.score >= 70">일반</el-tag>
+
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </el-card>
-                </router-link>
+                        </el-card>
+                    </router-link>
+                </div>
             </el-col>
         </el-row>
         <el-row>
             <h1 style="margin-left:80px;">
                 볼 수 있는 시험
             </h1>
-            <el-col :span="6" v-for="(subject, index) in tests" v-bind:key="index" :offset="1">
-                <router-link :to="`/tests/${index+1}`">
+            <el-col :span="6" v-for="(test, index) in tests" v-bind:key="index" :offset="1">
 
-                    <el-card style="margin-bottom:10px;">
-                        <div>
-                            <span style="font-size:1.5em; font-weight:bold;">{{ subject.title }}</span>
-                            <div class="bottom clearfix">
+                <div v-if="!test.taken">
+
+                    <router-link :to="`/tests/${index+1}`">
+
+                        <el-card style="margin-bottom:10px;">
+                            <div>
+                                <span style="font-size:1.5em; font-weight:bold;">{{ test.title }}</span>
+                                <div class="bottom clearfix">
+                                    <h4>{{ test.explanation}}</h4>
+                                    <div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </el-card>
-                </router-link>
+                        </el-card>
+                    </router-link>
+
+                </div>
             </el-col>
         </el-row>
     </div>
