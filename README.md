@@ -15,6 +15,9 @@ Vue를 사용하여 SPA로 만들었습니다.
 ## 백문이 불여일견 
 [데모 사이트](https://osam-satic.herokuapp.com/) 에서 직접 체험해 보기.  (sample ID : a, sample PW : a)
 
+## 프로젝트 소개 문서
+example
+
 ## 주요 기능들 
 로그인 기능을 통해 개별 사용자 별 학습이 가능합니다. 
 ![](http://g.recordit.co/ka3bd6l6jy.gif)
@@ -33,6 +36,7 @@ Vue를 사용하여 SPA로 만들었습니다.
 ![](http://g.recordit.co/Bq1wGMv9sO.gif)
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
+- 앱을 설치하기 위해 node.js가 필요합니다.
 - 이 웹 앱은 PC 크롬 브라우저를 기본으로 개발되었습니다. 다른 환경에서는 UI가 의도한 바와 다르게 동작할 수 있습니다.
 
 ## 설치 안내 (Installation Process)
