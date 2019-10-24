@@ -10,7 +10,7 @@
             <h1 style="margin-left:80px;">
                 내가 본 시험
             </h1>
-            <el-col :span="6" v-for="(test, index) in tests" v-bind:key="index" :offset="1">
+            <el-col :span="6" v-for="(test, index) in this.$store.state.tests" v-bind:key="index" :offset="1">
                 <div v-if="test.taken">
 
                     <router-link :to="`/tests/${index+1}`">
@@ -42,7 +42,7 @@
             <h1 style="margin-left:80px;">
                 볼 수 있는 시험
             </h1>
-            <el-col :span="6" v-for="(test, index) in tests" v-bind:key="index" :offset="1">
+            <el-col :span="6" v-for="(test, index) in this.$store.state.tests" v-bind:key="index" :offset="1">
 
                 <div v-if="!test.taken">
 
