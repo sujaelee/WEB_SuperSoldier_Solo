@@ -18,6 +18,9 @@ Vue를 사용하여 SPA로 만들었습니다.
 ## 프로젝트 소개 문서
 example
 
+## 화면 정의서
+https://balsamiq.cloud/so53c72/pjd5yvv/rD872
+
 ## 주요 기능들 
 로그인 기능을 통해 개별 사용자 별 학습이 가능합니다. 
 ![](http://g.recordit.co/ka3bd6l6jy.gif)
