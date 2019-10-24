@@ -21,10 +21,10 @@ Vue를 사용하여 SPA로 만들었습니다.
 [데모 사이트](https://osam-satic.herokuapp.com/) 에서 직접 체험해 보기.  (sample ID : a, sample PW : a)
 
 ## 프로젝트 소개 문서
-example
+https://github.com/sujaelee/WEB_SuperSoldier_Solo/blob/master/balpyo.pdf
 
 ## 화면 정의서
-
+https://github.com/sujaelee/WEB_SuperSoldier_Solo/blob/master/balsamiq.pdf
 
 https://balsamiq.cloud/so53c72/pjd5yvv/rD872
 
