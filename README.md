@@ -1,4 +1,4 @@
-<a href="https://supersoldier.run.goorm.io/"><img src="https://img.icons8.com/cotton/2x/olympic-medal-silver.png" title="Logo" alt="Logo"></a>
+<a href="https://osam-satic.herokuapp.com/"><img src="https://img.icons8.com/cotton/2x/olympic-medal-silver.png" title="Logo" alt="Logo"></a>
 
 # SuperSoldier - 군인을 위한 최고의 학습 앱.
 
@@ -13,7 +13,7 @@ SuperSoldier를 이용해 군인에게 필요한 자료를 카드와 시험을 �
 Vue를 사용하여 SPA로 만들었습니다.
 
 ## 백문이 불여일견 
-[데모 사이트](https://supersoldier.run.goorm.io/) 에서 직접 체험해 보기.  (sample ID : a, sample PW : a)
+[데모 사이트](https://osam-satic.herokuapp.com/) 에서 직접 체험해 보기.  (sample ID : a, sample PW : a)
 
 ## 주요 기능들 
 recordit 사용
