@@ -39,21 +39,20 @@ recordit 사용
   - [package-lock.json](supersoldier/package-lock.json)
   - [package.json](supersoldier/package.json)
   - __public__
-    - [favicon.ico](supersoldier/public/favicon.ico) ㄹ
-    - [index.html](supersoldier/public/index.html) ㄹ
+    - [favicon.ico](supersoldier/public/favicon.ico) 
+    - [index.html](supersoldier/public/index.html) 
   - __src__
     - [App.vue](supersoldier/src/App.vue)
     - __assets__
-      - [correct.png](supersoldier/src/assets/correct.png)ㄹ
+      - [correct.png](supersoldier/src/assets/correct.png)
       - [graph.png](supersoldier/src/assets/graph.png)
       - [logo.png](supersoldier/src/assets/logo.png)
       - [note.png](supersoldier/src/assets/note.png)
     - __components__
-      - [Card.vue](supersoldier/src/components/Card.vue) 
-      - [Cards.vue](supersoldier/src/components/Cards.vue)
-      - [CardsWrapper.vue](supersoldier/src/components/CardsWrapper.vue)
-      - [Header.vue](supersoldier/src/components/Header.vue)
-      - [HelloWorld.vue](supersoldier/src/components/HelloWorld.vue)
+      - [Card.vue](supersoldier/src/components/Card.vue) 개별 카드들을 학습할때 보여주는 카드 컴포넌트입니다.
+      - [Cards.vue](supersoldier/src/components/Cards.vue) 카드 학습 탭에서 카드들을 보여주는 컴포넌트입니다.
+      - [CardsWrapper.vue](supersoldier/src/components/CardsWrapper.vue) 카드들에 데이터를 제공하는 컴포넌트 입니다.
+      - [Header.vue](supersoldier/src/components/Header.vue) 사이트의 헤더 부분( 네비게이션 메뉴)를 제공하는 컴포넌트 입니다.
       - [Home.vue](supersoldier/src/components/Home.vue)
       - [Login.vue](supersoldier/src/components/Login.vue)
       - [Profile.vue](supersoldier/src/components/Profile.vue)
