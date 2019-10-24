@@ -1,5 +1,11 @@
 <template>
-    <Cards v-bind:cards="cards" />
+    <div>
+		
+	<Cards v-bind:cards="cards" v-if="this.$store.state.logined"/>
+	<h1 v-else>
+		학습을 위해 로그인이 필요합니다.
+	</h1>
+	</div>
 </template>
 
 <style>
@@ -16,21 +22,24 @@
         data() {
             return {
                 cards: [{
-                    title: '구급법',
-                    project: '구급법에 대해 알아 봅니다.',
-                    number: 30
-                }, {
-                    title: '화생방',
-                    project: 'Project B',
-                    number: 30
-                }, {
-                    title: '정신전력',
-                    project: 'Project C',
-					number: 40
-                }, {
-                    title: '군부대',
-                    project: 'Project D',
-                }],
+                        title: '구급법',
+                        number: 10
+                    }, {
+                        title: '군사 영어',
+                        number: 10
+                    }, {
+                        title: '북한군 전술',
+                        number: 10
+                    }, {
+                        title: '군부대',
+                        number: 10						
+                    },
+                    {
+                        title: '한식 조리 기능사',
+                        number: 40
+						
+                    },
+                ],
             };
         },
     };

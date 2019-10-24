@@ -1,5 +1,11 @@
 <template>
     <div>
+        <div style="background: url(https://ghost.org/images/docs/bg-setup.svg) bottom no-repeat,linear-gradient(60deg,#556B2F,green); color:white; text-align:center;">
+            <h1>
+				간단하게 시험을 보고 실력을 확인하세요. <br> 
+                시험을 통해 더 확실하게 기억하세요.
+            </h1>
+        </div>		
         <el-row>
             <h1 style="margin-left:80px;">
                 내가 본 시험

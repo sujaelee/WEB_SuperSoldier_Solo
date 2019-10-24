@@ -1,5 +1,10 @@
 <template>
     <div>
+        <div style="background: url(https://ghost.org/images/docs/bg-setup.svg) bottom no-repeat,linear-gradient(60deg,#556B2F,green); color:white; text-align:center;">
+            <h1>
+                간격 반복 학습(Spaced Repetition)을 통해 <br>모든 것을 쉽고 완벽하게 배워보세요.
+            </h1>
+        </div>		
         <h1 style="margin-left:80px;">
             내 카드들
         </h1>
@@ -8,7 +13,7 @@
                 <router-link :to="`/cards/${index+1}`">
 
                     <el-card style="margin-bottom:10px;">
-                        <img src="@/assets/logo.png" class="image">
+                        <img src="@/assets/note.png" class="image">
 
                         <div>
                             <span style="font-size:1.5em; font-weight:bold;">{{ card.title }}</span>

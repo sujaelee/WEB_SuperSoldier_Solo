@@ -2,7 +2,7 @@
     <el-main>
         <el-row style="height: 500px;">
             <el-col :span="24">
-                <div class="" style="text-align:center; font-size: 2.5em; ">
+                <div class="" style="text-align:center; font-size: 2.5em;">
                     <h1>
                         <span style="color:green">군인</span>을 위한
                         <br> 최고의 학습 앱.</h1>

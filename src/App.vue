@@ -2,7 +2,7 @@
     <div id="app">
 
         <Header />
-        <el-main>
+        <el-main >
             <router-view />
         </el-main>
     </div>

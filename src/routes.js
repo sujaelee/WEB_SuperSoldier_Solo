@@ -9,6 +9,8 @@ import Card from './components/Card.vue';
 import TestsWrapper from './components/TestsWrapper.vue';
 import Test from './components/Test.vue';
 
+import Login from './components/Login.vue';
+
 
 const routes = [
     { path: '/', component: Home },
@@ -18,6 +20,7 @@ const routes = [
     { path: '/cards/:id', component: Card },
 	{ path: '/tests', component: TestsWrapper },
     { path: '/tests/:id', component: Test },
+    { path: '/login', component: Login },
 
 	
 ];

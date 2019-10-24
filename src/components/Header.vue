@@ -12,7 +12,9 @@
             <el-menu-item index="/subjects">공부하기</el-menu-item>
             <el-menu-item index="/cards">카드학습</el-menu-item>
             <el-menu-item index="/tests">시험보기</el-menu-item>
-
+            <el-menu-item index="/login" v-if = "!this.$store.state.logined">로그인</el-menu-item>
+            <el-menu-item index="/profile" v-else >{{this.$store.state.user.name}}</el-menu-item>
+			
         </el-menu>
 
     </el-header>
