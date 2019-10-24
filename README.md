@@ -1,4 +1,4 @@
-<a href="http://fvcproductions.com"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
+<a href=""><img src="https://img.icons8.com/cotton/2x/olympic-medal-silver.png" title="Logo" alt="Logo"></a>
 
 # SuperSoldier - 군인을 위한 최고의 학습 앱.
 
@@ -31,42 +31,63 @@ recordit 사용
 - 위에서의 설치를 완료하여 서버가 파일을 실행하면, 주소에 접속해 사용하면 됩니다.
 
 ## 파일 정보 및 목록 (File Manifest)
-  '    |-- README.md',  
-  '    |-- babel.config.js',  
-  '    |-- directoryList.md',  
-  '    |-- package-lock.json',  
-  '    |-- package.json',  
-  '    |-- test.txt',  
-  '    |-- vue.config.js',  
-  '    |-- public',  
-  '    |   |-- favicon.ico',  
-  '    |   |-- index.html',  
-  '    |-- src',  
-  '        |-- App.vue',  
-  '        |-- main.js',  
-  '        |-- routes.js',  
-  '        |-- assets',  
-  '        |   |-- correct.png',  
-  '        |   |-- graph.png',  
-  '        |   |-- logo.png',  
-  '        |   |-- note.png',  
-  '        |-- components',  
-  '        |   |-- Card.vue',  
-  '        |   |-- Cards.vue',  
-  '        |   |-- CardsWrapper.vue',  
-  '        |   |-- Header.vue',  
-  '        |   |-- HelloWorld.vue',  
-  '        |   |-- Home.vue',  
-  '        |   |-- Login.vue',  
-  '        |   |-- Profile.vue',  
-  '        |   |-- Subject.vue',  
-  '        |   |-- Subjects.vue',  
-  '        |   |-- SubjectsWrapper.vue',  
-  '        |   |-- Test.vue',  
-  '        |   |-- Tests.vue',  
-  '        |   |-- TestsWrapper.vue',  
-  '        |-- store',  
-  '            |-- index.js',  
+- __supersoldier__
+  - [README.md](supersoldier/README.md)
+  - [babel.config.js](supersoldier/babel.config.js)
+  - [directoryList.md](supersoldier/directoryList.md)
+  - __dist__
+    - __css__
+      - [app.6fcb9c20.css](supersoldier/dist/css/app.6fcb9c20.css)
+      - [chunk-vendors.37378a5e.css](supersoldier/dist/css/chunk-vendors.37378a5e.css)
+    - [favicon.ico](supersoldier/dist/favicon.ico)
+    - __fonts__
+      - [element-icons.535877f5.woff](supersoldier/dist/fonts/element-icons.535877f5.woff)
+      - [element-icons.732389de.ttf](supersoldier/dist/fonts/element-icons.732389de.ttf)
+    - [index.html](supersoldier/dist/index.html)
+    - __img__
+      - [logo.454b23e4.png](supersoldier/dist/img/logo.454b23e4.png)
+      - [note.ec120654.png](supersoldier/dist/img/note.ec120654.png)
+    - __js__
+      - [app.a2dc4a00.js](supersoldier/dist/js/app.a2dc4a00.js)
+      - [app.a2dc4a00.js.map](supersoldier/dist/js/app.a2dc4a00.js.map)
+      - [chunk-vendors.4713b21e.js](supersoldier/dist/js/chunk-vendors.4713b21e.js)
+      - [chunk-vendors.4713b21e.js.map](supersoldier/dist/js/chunk-vendors.4713b21e.js.map)
+  - [node_modules](supersoldier/node_modules)
+  - [package-lock.json](supersoldier/package-lock.json)
+  - [package.json](supersoldier/package.json)
+  - __public__
+    - [favicon.ico](supersoldier/public/favicon.ico)
+    - [index.html](supersoldier/public/index.html)
+  - __src__
+    - [App.vue](supersoldier/src/App.vue)
+    - __assets__
+      - [correct.png](supersoldier/src/assets/correct.png)
+      - [graph.png](supersoldier/src/assets/graph.png)
+      - [logo.png](supersoldier/src/assets/logo.png)
+      - [note.png](supersoldier/src/assets/note.png)
+    - __components__
+      - [Card.vue](supersoldier/src/components/Card.vue)
+      - [Cards.vue](supersoldier/src/components/Cards.vue)
+      - [CardsWrapper.vue](supersoldier/src/components/CardsWrapper.vue)
+      - [Header.vue](supersoldier/src/components/Header.vue)
+      - [HelloWorld.vue](supersoldier/src/components/HelloWorld.vue)
+      - [Home.vue](supersoldier/src/components/Home.vue)
+      - [Login.vue](supersoldier/src/components/Login.vue)
+      - [Profile.vue](supersoldier/src/components/Profile.vue)
+      - [Subject.vue](supersoldier/src/components/Subject.vue)
+      - [Subjects.vue](supersoldier/src/components/Subjects.vue)
+      - [SubjectsWrapper.vue](supersoldier/src/components/SubjectsWrapper.vue)
+      - [Test.vue](supersoldier/src/components/Test.vue)
+      - [Tests.vue](supersoldier/src/components/Tests.vue)
+      - [TestsWrapper.vue](supersoldier/src/components/TestsWrapper.vue)
+    - [main.js](supersoldier/src/main.js)
+    - [routes.js](supersoldier/src/routes.js)
+    - __store__
+      - [index.js](supersoldier/src/store/index.js)
+  - [test.txt](supersoldier/test.txt)
+  - [vue.config.js](supersoldier/vue.config.js)
+
+
 ## 저작권 및 사용권 정보 (Copyright / End User License)
 - mit license
 
