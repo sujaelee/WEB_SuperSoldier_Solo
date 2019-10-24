@@ -1,4 +1,4 @@
-<a href=""><img src="https://img.icons8.com/cotton/2x/olympic-medal-silver.png" title="Logo" alt="Logo"></a>
+<a href="https://supersoldier.run.goorm.io/"><img src="https://img.icons8.com/cotton/2x/olympic-medal-silver.png" title="Logo" alt="Logo"></a>
 
 # SuperSoldier - 군인을 위한 최고의 학습 앱.
 
@@ -9,23 +9,23 @@ SuperSoldier를 이용해 군인에게 필요한 자료를 카드와 시험을 �
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 
 ## 백문이 불여일견 
-데모 사이트 에서 직접 체험해 보기.
-
-## 왜 만들었을까?
+[데모 사이트](https://supersoldier.run.goorm.io/) 에서 직접 체험해 보기.  (sample ID : a, sample PW : a)
 
 ## 주요 기능들 
 recordit 사용
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
-- 이 웹 앱은 PC 크롬 브라우저를 기본으로 개발되었습니다.
+- 이 웹 앱은 PC 크롬 브라우저를 기본으로 개발되었습니다. 다른 환경에서는 UI가 의도한 바와 다르게 동작할 수 있습니다.
 
 ## 설치 안내 (Installation Process)
-- npm install
+```
+# npm install
 을 실행하여 필요한 node module들을 다운로드 받습니다.
-- npm run serve
+# npm run serve
 앱을 개발할 때 사용됩니다. 파일들을 컴파일 후 서버에서 실행합니다.
-- npm run build
+# npm run build
 앱을 프로덕션용으로 배포할 때 사용합니다. 컴파일된 파일들은 /dist 폴더로 들어가게 되며 생성된 index.html 파일을 실행하면 앱이 실행됩니다.
+```
 
 ## 사용법 (Getting Started)
 - 위에서의 설치를 완료하여 서버가 파일을 실행하면, 주소에 접속해 사용하면 됩니다.
@@ -35,28 +35,11 @@ recordit 사용
   - [README.md](supersoldier/README.md)
   - [babel.config.js](supersoldier/babel.config.js)
   - [directoryList.md](supersoldier/directoryList.md)
-  - __dist__
-    - __css__
-      - [app.6fcb9c20.css](supersoldier/dist/css/app.6fcb9c20.css)
-      - [chunk-vendors.37378a5e.css](supersoldier/dist/css/chunk-vendors.37378a5e.css)
-    - [favicon.ico](supersoldier/dist/favicon.ico)
-    - __fonts__
-      - [element-icons.535877f5.woff](supersoldier/dist/fonts/element-icons.535877f5.woff)
-      - [element-icons.732389de.ttf](supersoldier/dist/fonts/element-icons.732389de.ttf)
-    - [index.html](supersoldier/dist/index.html)
-    - __img__
-      - [logo.454b23e4.png](supersoldier/dist/img/logo.454b23e4.png)
-      - [note.ec120654.png](supersoldier/dist/img/note.ec120654.png)
-    - __js__
-      - [app.a2dc4a00.js](supersoldier/dist/js/app.a2dc4a00.js)
-      - [app.a2dc4a00.js.map](supersoldier/dist/js/app.a2dc4a00.js.map)
-      - [chunk-vendors.4713b21e.js](supersoldier/dist/js/chunk-vendors.4713b21e.js)
-      - [chunk-vendors.4713b21e.js.map](supersoldier/dist/js/chunk-vendors.4713b21e.js.map)
   - [node_modules](supersoldier/node_modules)
   - [package-lock.json](supersoldier/package-lock.json)
   - [package.json](supersoldier/package.json)
   - __public__
-    - [favicon.ico](supersoldier/public/favicon.ico)
+    - [favicon.ico](supersoldier/public/favicon.ico) 
     - [index.html](supersoldier/public/index.html)
   - __src__
     - [App.vue](supersoldier/src/App.vue)
