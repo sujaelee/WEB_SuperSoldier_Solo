@@ -16,7 +16,21 @@ Vue를 사용하여 SPA로 만들었습니다.
 [데모 사이트](https://osam-satic.herokuapp.com/) 에서 직접 체험해 보기.  (sample ID : a, sample PW : a)
 
 ## 주요 기능들 
-recordit 사용
+로그인 기능을 통해 개별 사용자 별 학습이 가능합니다. 
+![](http://g.recordit.co/ka3bd6l6jy.gif)
+
+공부하기 메뉴에서 듣고 싶은 자료를 신청하고, 챕터별로 공부할수 있습니다.
+![](http://g.recordit.co/OYb4tOedaK.gif)
+
+카드학습 메뉴에서 신청한 자료에 맞는 카드들을 간격 반복 기법으로 공부할 수 있습니다.  
+옆 메뉴에서 복습까지 남은 시간을 나타내 줍니다.
+![](http://g.recordit.co/eSA0lprxql.gif)
+
+시험보기 메뉴에서 시험을 볼 수 있다. 답안을 입력할 수 있고, 수정할 수 있습니다. 이후 제출하면, 점수가 저장됩니다. 
+![](http://g.recordit.co/Suz6nanASX.gif)
+
+프로필 메뉴에서 내가 수강하고 있는 자료들, 카드, 시험 모두 볼 수 있습니다.
+![](http://g.recordit.co/Bq1wGMv9sO.gif)
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
 - 이 웹 앱은 PC 크롬 브라우저를 기본으로 개발되었습니다. 다른 환경에서는 UI가 의도한 바와 다르게 동작할 수 있습니다.
@@ -80,7 +94,7 @@ recordit 사용
 - [이수재](github.com/sujaelee) (sujaelee7940@gmail.com)
 
 ## 알려진 버그 (Known Issues)
-- vue를 사용해 프론트엔드만 완성한 프로젝트 입니다.
+- 이번 웹 과정 캠프의 목적에 맞게 Vue를 사용해 프론트엔드만 완성한 프로젝트 입니다.
 - 앱을 종료하면, 데이터가 저장되지 않습니다.
 
 ## 문제 발생에 대한 해결책 (Troubleshooting)
