@@ -10,6 +10,7 @@ export const store = new Vuex.Store({
         user: {
             id: 'a',
             password: 'a',
+			class:'상병',
             name: '이수재'
         },
         logined: false,
